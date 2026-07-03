@@ -1,5 +1,5 @@
-import { Mail, ExternalLink, MapPin } from "lucide-react";
-import { GithubIcon, TelegramIcon } from "@/components/telegram-icon";
+import { Mail, MapPin } from "lucide-react";
+import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { socials } from "@/lib/data";
 
 export function Hero() {
@@ -61,8 +61,8 @@ export function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
             >
+              <LinkedinIcon className="h-4 w-4" />
               LinkedIn
-              <ExternalLink className="h-4 w-4" />
             </a>
           </div>
         </div>

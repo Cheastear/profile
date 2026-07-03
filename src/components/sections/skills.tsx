@@ -13,7 +13,7 @@ export function Skills() {
           {[...skillsRow1, ...skillsRow1].map((skill, i) => (
             <span
               key={i}
-              className="inline-block text-sm text-white/45 bg-white/[0.05] border border-white/[0.07] rounded-lg px-3 py-1.5 mr-3 shrink-0 whitespace-nowrap"
+              className="inline-block text-sm text-white/65 bg-white/[0.05] border border-white/[0.07] rounded-lg px-3 py-1.5 mr-3 shrink-0 whitespace-nowrap"
             >
               {skill}
             </span>
@@ -23,7 +23,7 @@ export function Skills() {
           {[...skillsRow2, ...skillsRow2].map((skill, i) => (
             <span
               key={i}
-              className="inline-block text-sm text-white/45 bg-white/[0.05] border border-white/[0.07] rounded-lg px-3 py-1.5 mr-3 shrink-0 whitespace-nowrap"
+              className="inline-block text-sm text-white/65 bg-white/[0.05] border border-white/[0.07] rounded-lg px-3 py-1.5 mr-3 shrink-0 whitespace-nowrap"
             >
               {skill}
             </span>

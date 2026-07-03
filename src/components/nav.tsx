@@ -1,4 +1,4 @@
-import { GithubIcon, TelegramIcon } from "@/components/telegram-icon";
+import { GithubIcon, LinkedinIcon, TelegramIcon } from "@/components/icons";
 import { socials } from "@/lib/data";
 
 export function Nav() {
@@ -8,17 +8,29 @@ export function Nav() {
         <span className="font-heading font-extrabold text-lg text-white tracking-wide">
           KV
         </span>
-        <nav className="hidden md:flex items-center gap-8 text-sm text-white/35 font-medium">
-          <a href="#about" className="hover:text-white transition-colors duration-200">
+        <nav className="hidden md:flex items-center gap-8 text-sm text-white/55 font-medium">
+          <a
+            href="#about"
+            className="hover:text-white transition-colors duration-200"
+          >
             About
           </a>
-          <a href="#skills" className="hover:text-white transition-colors duration-200">
+          <a
+            href="#skills"
+            className="hover:text-white transition-colors duration-200"
+          >
             Skills
           </a>
-          <a href="#experience" className="hover:text-white transition-colors duration-200">
+          <a
+            href="#experience"
+            className="hover:text-white transition-colors duration-200"
+          >
             Experience
           </a>
-          <a href="#contact" className="hover:text-white transition-colors duration-200">
+          <a
+            href="#contact"
+            className="hover:text-white transition-colors duration-200"
+          >
             Contact
           </a>
         </nav>
@@ -31,6 +43,15 @@ export function Nav() {
             aria-label="GitHub"
           >
             <GithubIcon className="h-4 w-4" />
+          </a>
+          <a
+            href={socials.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white/30 hover:text-white transition-colors duration-200"
+            aria-label="LinkedIn"
+          >
+            <LinkedinIcon className="h-4 w-4" />
           </a>
           <a
             href={socials.telegram}

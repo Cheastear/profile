@@ -16,7 +16,7 @@ export function Services() {
               <h3 className="font-heading font-semibold text-white/80 mb-2 group-hover:text-white transition-colors duration-200">
                 {service.title}
               </h3>
-              <p className="text-sm text-white/30">{service.description}</p>
+              <p className="text-sm text-white/55">{service.description}</p>
             </div>
           ))}
         </div>

@@ -1,5 +1,5 @@
-import { Mail, ExternalLink } from "lucide-react";
-import { GithubIcon, TelegramIcon } from "@/components/telegram-icon";
+import { Mail } from "lucide-react";
+import { GithubIcon, LinkedinIcon, TelegramIcon } from "@/components/icons";
 import { socials } from "@/lib/data";
 
 export function Contact() {
@@ -9,7 +9,7 @@ export function Contact() {
         <h2 className="font-heading font-extrabold text-5xl sm:text-6xl text-white mb-4 tracking-tight">
           Let&apos;s work <span className="text-white/50">together</span>
         </h2>
-        <p className="text-white/30 mb-10 max-w-xs mx-auto text-sm leading-relaxed">
+        <p className="text-white/55 mb-10 max-w-3xs mx-auto text-sm leading-relaxed">
           Available for freelance, contract work, and full-time positions.
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
@@ -44,8 +44,8 @@ export function Contact() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
           >
+            <LinkedinIcon className="h-4 w-4" />
             LinkedIn
-            <ExternalLink className="h-4 w-4" />
           </a>
         </div>
       </div>

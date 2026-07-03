@@ -18,21 +18,21 @@ export function Experience() {
                   <h3 className="font-heading font-semibold text-lg text-white/90">
                     {exp.title}
                   </h3>
-                  <p className="text-sm text-white/25 mt-1">
+                  <p className="text-sm text-white/55 mt-1">
                     Freelance · {exp.location}
                   </p>
                 </div>
                 <div className="flex items-center gap-2.5 shrink-0">
-                  <span className="text-xs text-white/30 bg-white/[0.05] border border-white/[0.07] rounded-md px-2.5 py-1">
+                  <span className="text-xs text-white/55 bg-white/[0.05] border border-white/[0.07] rounded-md px-2.5 py-1">
                     {exp.duration}
                   </span>
-                  <span className="text-xs text-white/20 whitespace-nowrap">
+                  <span className="text-xs text-white/55 whitespace-nowrap">
                     {exp.period}
                   </span>
                 </div>
               </div>
 
-              <p className="text-sm text-white/40 mb-5 leading-relaxed">
+              <p className="text-sm text-white/60 mb-5 leading-relaxed">
                 {exp.description}
               </p>
 
@@ -40,7 +40,7 @@ export function Experience() {
                 {exp.achievements.map((achievement) => (
                   <li
                     key={achievement}
-                    className="flex items-start gap-3 text-sm text-white/40"
+                    className="flex items-start gap-3 text-sm text-white/60"
                   >
                     <span className="mt-2 h-px w-4 shrink-0 bg-white/30" />
                     {achievement}
@@ -52,7 +52,7 @@ export function Experience() {
                 {exp.tech.map((t) => (
                   <span
                     key={t}
-                    className="text-xs text-white/40 bg-white/[0.05] border border-white/[0.07] rounded-md px-2.5 py-1 font-medium"
+                    className="text-xs text-white/60 bg-white/[0.05] border border-white/[0.07] rounded-md px-2.5 py-1 font-medium"
                   >
                     {t}
                   </span>

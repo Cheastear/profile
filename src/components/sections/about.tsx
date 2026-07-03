@@ -5,7 +5,7 @@ export function About() {
         <h2 className="font-heading font-bold text-3xl text-white mb-8">
           About
         </h2>
-        <div className="space-y-4 text-[15px] text-white/40 leading-relaxed max-w-3xl">
+        <div className="space-y-4 text-[15px] text-white/60 leading-relaxed max-w-3xl">
           <p>
             Full-Stack JavaScript Developer specializing in building scalable,
             high-performance web and mobile applications. I create end-to-end
