@@ -1,11 +1,38 @@
+export const socials = {
+  email: "mr.cheesteer@gmail.com",
+  linkedin: "https://linkedin.com/in/kirill-vitoshkin-a9420a288",
+  github: "https://github.com/Cheastear",
+  telegram: "https://t.me/Cheesteer",
+};
+
 export const skillsRow1 = [
-  "TypeScript", "React.js", "Next.js", "Node.js", "NestJS", "React Native",
-  "Expo", "PostgreSQL", "MongoDB", "GraphQL", "Apollo Client", "REST APIs",
+  "TypeScript",
+  "React.js",
+  "Next.js",
+  "Node.js",
+  "NestJS",
+  "React Native",
+  "Expo",
+  "PostgreSQL",
+  "MongoDB",
+  "GraphQL",
+  "Apollo Client",
+  "REST APIs",
 ];
 
 export const skillsRow2 = [
-  "WebSockets", "Tailwind CSS", "Radix UI", "Ant Design", "Supabase", "Stripe",
-  "TanStack Query", "JWT", "Sentry", "LogRocket", "Figma", "Docker",
+  "WebSockets",
+  "Tailwind CSS",
+  "Radix UI",
+  "Ant Design",
+  "Supabase",
+  "Stripe",
+  "TanStack Query",
+  "JWT",
+  "Sentry",
+  "LogRocket",
+  "Figma",
+  "Docker",
 ];
 
 export const experiences = [
@@ -21,7 +48,17 @@ export const experiences = [
       "Diagnosed critical issues with Sentry & LogRocket — reduced error-related churn by 25%",
       "20% improvement in engagement metrics through product and design collaboration",
     ],
-    tech: ["React", "NestJS", "Node.js", "Stripe", "PostgreSQL", "Tailwind CSS", "Sentry", "LogRocket", "Mailgun"],
+    tech: [
+      "React",
+      "NestJS",
+      "Node.js",
+      "Stripe",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Sentry",
+      "LogRocket",
+      "Mailgun",
+    ],
   },
   {
     title: "Switch Teachers — Freelance Marketplace",
@@ -38,13 +75,23 @@ export const experiences = [
       "Geolocation + NFC attendance verification — reduced fraud by 99%",
       "Radix UI + Tailwind CSS UI — 95+ Lighthouse accessibility score",
     ],
-    tech: ["React", "Capacitor", "Supabase", "PostgreSQL", "TanStack Query", "Radix UI", "Tailwind CSS", "NFC", "Figma"],
+    tech: [
+      "React",
+      "Capacitor",
+      "Supabase",
+      "PostgreSQL",
+      "TanStack Query",
+      "Radix UI",
+      "Tailwind CSS",
+      "NFC",
+      "Figma",
+    ],
   },
   {
     title: "Web-Based Analytics Platform",
     period: "May 2024 – Feb 2025",
     duration: "10 month",
-    location: "Ukraine",
+    location: "Remote",
     description:
       "Architected a high-performance analytics dashboard for 50+ enterprise clients, processing 2M+ events daily at 99.98% uptime.",
     achievements: [
@@ -54,7 +101,16 @@ export const experiences = [
       "Real-time data visualization for 100+ concurrent users via WebSockets (sub-100ms latency)",
       "Mentored 3 junior developers",
     ],
-    tech: ["Next.js", "React", "TypeScript", "GraphQL", "Apollo Client", "WebSockets", "Ant Design", "PostgreSQL"],
+    tech: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "Apollo Client",
+      "WebSockets",
+      "Ant Design",
+      "PostgreSQL",
+    ],
   },
   {
     title: "AI-Based Staff Training & Management App",
@@ -70,7 +126,17 @@ export const experiences = [
       "JWT auth supporting 10,000+ concurrent users at 99.9% uptime",
       "Real-time performance analytics across 200+ organizations",
     ],
-    tech: ["React Native", "Expo", "Next.js", "TypeScript", "PostgreSQL", "JWT", "GPT-4o", "REST APIs", "Figma"],
+    tech: [
+      "React Native",
+      "Expo",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "JWT",
+      "GPT-4o",
+      "REST APIs",
+      "Figma",
+    ],
   },
 ];
 
