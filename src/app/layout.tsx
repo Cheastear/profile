@@ -22,7 +22,10 @@ const geistMono = Geist_Mono({
 });
 
 const description =
-  "Full-Stack Developer with 3+ years building scalable web and mobile apps with React, Next.js, Node.js, NestJS, and React Native. Available for freelance and contract work.";
+  "Full-Stack Developer specializing in React, Next.js, Node.js & React Native. 3+ years of experience. Open to freelance and contract work.";
+
+const ogDescription =
+  "Full-Stack Dev · React, Next.js, Node.js, React Native. Open to freelance work.";
 
 export const metadata: Metadata = {
   title: {
@@ -57,7 +60,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "Kirill Vitoshkin — Full-Stack Developer",
-    description,
+    description: ogDescription,
     siteName: "Kirill Vitoshkin",
     locale: "en_US",
   },

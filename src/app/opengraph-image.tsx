@@ -94,7 +94,7 @@ export default function OgImage() {
         {/* Subtitle */}
         <span
           style={{
-            color: "#383838",
+            color: "#666666",
             fontSize: 15,
             fontWeight: 600,
             letterSpacing: "0.25em",
@@ -104,6 +104,31 @@ export default function OgImage() {
         >
           Full-Stack Developer
         </span>
+
+        {/* CTA */}
+        <div
+          style={{
+            display: "flex",
+            marginTop: 32,
+          }}
+        >
+          <div
+            style={{
+              background: "white",
+              borderRadius: 999,
+              padding: "12px 28px",
+              display: "flex",
+              alignItems: "center",
+              gap: 8,
+              fontSize: 16,
+              fontWeight: 700,
+              color: "#111111",
+              letterSpacing: "-0.3px",
+            }}
+          >
+            Hire me →
+          </div>
+        </div>
 
         {/* Skills — pushed to bottom */}
         <div
