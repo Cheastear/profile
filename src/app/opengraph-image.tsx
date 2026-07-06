@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Kirill Vitoshkin — Full-Stack Developer";
+export const alt = "Kyrylo Vitoshkin — Full-Stack Developer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -73,7 +73,7 @@ export default function OgImage() {
             letterSpacing: "-4px",
           }}
         >
-          Kirill
+          Kyrylo
         </span>
         <span
           style={{

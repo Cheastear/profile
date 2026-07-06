@@ -30,8 +30,8 @@ const ogDescription =
 
 export const metadata: Metadata = {
   title: {
-    default: "Kirill Vitoshkin — Full-Stack React & Next.js Developer",
-    template: "%s | Kirill Vitoshkin",
+    default: "Kyrylo Vitoshkin — Full-Stack React & Next.js Developer",
+    template: "%s | Kyrylo Vitoshkin",
   },
   description,
   alternates: {
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
     "Freelance Developer",
     "Web Developer",
     "Mobile Developer",
-    "Kirill Vitoshkin",
+    "Kyrylo Vitoshkin",
     "cheesteer",
   ],
-  authors: [{ name: "Kirill Vitoshkin", url: "https://github.com/Cheastear" }],
-  creator: "Kirill Vitoshkin",
+  authors: [{ name: "Kyrylo Vitoshkin", url: "https://github.com/Cheastear" }],
+  creator: "Kyrylo Vitoshkin",
   metadataBase: new URL(
     process.env.VERCEL_PROJECT_PRODUCTION_URL
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
@@ -67,15 +67,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "/",
-    title: "Kirill Vitoshkin — Full-Stack React & Next.js Developer",
+    title: "Kyrylo Vitoshkin — Full-Stack React & Next.js Developer",
     description: ogDescription,
-    siteName: "Kirill Vitoshkin",
+    siteName: "Kyrylo Vitoshkin",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     site: "@Cheesteer",
-    title: "Kirill Vitoshkin — Full-Stack React & Next.js Developer",
+    title: "Kyrylo Vitoshkin — Full-Stack React & Next.js Developer",
     description,
     creator: "@Cheesteer",
   },

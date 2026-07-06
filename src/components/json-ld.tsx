@@ -18,7 +18,7 @@ export function JsonLd() {
         "@id": `${baseUrl}/#profilepage`,
         dateCreated,
         dateModified,
-        name: "Kirill Vitoshkin — Full-Stack React & Next.js Developer",
+        name: "Kyrylo Vitoshkin — Full-Stack React & Next.js Developer",
         description:
           "Full-Stack Developer — React, Next.js, Node.js, NestJS & React Native. Designing web UIs, REST APIs & PostgreSQL systems. Open to freelance work.",
         url: baseUrl,
@@ -28,7 +28,7 @@ export function JsonLd() {
         "@type": "WebPage",
         "@id": `${baseUrl}/#webpage`,
         url: baseUrl,
-        name: "Kirill Vitoshkin — Full-Stack React & Next.js Developer",
+        name: "Kyrylo Vitoshkin — Full-Stack React & Next.js Developer",
         datePublished: dateCreated,
         dateModified,
         author: { "@id": `${baseUrl}/#person` },
@@ -49,7 +49,7 @@ export function JsonLd() {
       {
         "@type": "Person",
         "@id": `${baseUrl}/#person`,
-        name: "Kirill Vitoshkin",
+        name: "Kyrylo Vitoshkin",
         jobTitle: "Full-Stack Developer",
         description:
           "Full-Stack JavaScript Developer specializing in scalable web and mobile apps with React, Next.js, Node.js, NestJS, TypeScript, and React Native.",

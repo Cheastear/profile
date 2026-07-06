@@ -21,7 +21,7 @@ export function Hero() {
           <div>
             <h1 className="font-heading font-extrabold leading-none tracking-tight">
               <span className="block text-[72px] sm:text-[100px] bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
-                Kirill{" "}
+                Kyrylo{" "}
               </span>
               <span className="block text-[72px] sm:text-[100px] bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
                 Vitoshkin{" "}

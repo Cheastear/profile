@@ -10,7 +10,7 @@ export function About() {
           itemType="https://schema.org/Person"
           className="space-y-4 text-[15px] text-white/60 leading-relaxed max-w-3xl"
         >
-          <meta itemProp="name" content="Kirill Vitoshkin" />
+          <meta itemProp="name" content="Kyrylo Vitoshkin" />
           <meta itemProp="jobTitle" content="Full-Stack Developer" />
           <p itemProp="description">
             Full-Stack JavaScript Developer specializing in building scalable,
