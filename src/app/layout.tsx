@@ -65,6 +65,9 @@ export const metadata: Metadata = {
         ? `https://${process.env.VERCEL_URL}`
         : "http://localhost:3000",
   ),
+  verification: {
+    google: "GTTsFGQZWLavSZIgJpTeaUGOdnL1llZeWr8QI7Ewfcg",
+  },
   openGraph: {
     type: "website",
     url: "/",
