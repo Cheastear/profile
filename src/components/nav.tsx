@@ -5,10 +5,10 @@ import { GithubIcon, LinkedinIcon, TelegramIcon } from "@/components/icons";
 import { socials } from "@/lib/data";
 
 const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#experience", label: "Experience" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#skills", label: "Skills" },
+  { href: "/#experience", label: "Experience" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export function Nav() {
