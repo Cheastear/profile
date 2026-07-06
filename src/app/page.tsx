@@ -20,8 +20,8 @@ export default function Page() {
         <Experience />
         <Services />
         <Faq />
-        <Explore />
         <Contact />
+        <Explore />
       </main>
       <Footer />
     </div>
