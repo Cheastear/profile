@@ -20,6 +20,14 @@ export function Services() {
             </div>
           ))}
         </div>
+        <div className="mt-8">
+          <a
+            href="/contact"
+            className="text-sm text-white/40 hover:text-white transition-colors duration-200 underline underline-offset-4"
+          >
+            Discuss your project with me →
+          </a>
+        </div>
       </div>
     </section>
   );

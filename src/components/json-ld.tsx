@@ -55,6 +55,12 @@ export function JsonLd() {
           "Full-Stack JavaScript Developer specializing in scalable web and mobile apps with React, Next.js, Node.js, NestJS, TypeScript, and React Native.",
         url: baseUrl,
         email: "mr.cheesteer@gmail.com",
+        telephone: ["+34674458478", "+380977798199"],
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Valencia",
+          addressCountry: "ES",
+        },
         sameAs: [
           "https://github.com/Cheastear",
           "https://linkedin.com/in/kirill-vitoshkin-a9420a288",

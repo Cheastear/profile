@@ -3,6 +3,10 @@ export const socials = {
   linkedin: "https://linkedin.com/in/kirill-vitoshkin-a9420a288",
   github: "https://github.com/Cheastear",
   telegram: "https://t.me/Cheesteer",
+  phoneES: "+34674458478",
+  phoneUA: "+380977798199",
+  phoneESDisplay: "+34 674 458 478",
+  phoneUADisplay: "+380 97 779 81 99",
 };
 
 export const skillsRow1 = [

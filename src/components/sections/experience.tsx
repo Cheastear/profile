@@ -61,6 +61,14 @@ export function Experience() {
             </div>
           ))}
         </div>
+        <div className="mt-10">
+          <a
+            href="#services"
+            className="text-sm text-white/40 hover:text-white transition-colors duration-200 underline underline-offset-4"
+          >
+            See the services I offer →
+          </a>
+        </div>
       </div>
     </section>
   );

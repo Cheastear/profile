@@ -6,6 +6,7 @@ import { Skills } from "@/components/sections/skills";
 import { Experience } from "@/components/sections/experience";
 import { Services } from "@/components/sections/services";
 import { Faq } from "@/components/sections/faq";
+import { Explore } from "@/components/sections/explore";
 import { Contact } from "@/components/sections/contact";
 
 export default function Page() {
@@ -19,6 +20,7 @@ export default function Page() {
         <Experience />
         <Services />
         <Faq />
+        <Explore />
         <Contact />
       </main>
       <Footer />

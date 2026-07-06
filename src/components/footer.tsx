@@ -6,6 +6,8 @@ export function Footer() {
         <nav className="flex items-center gap-5">
           <a href="/about" className="hover:text-white transition-colors duration-200">About</a>
           <a href="/contact" className="hover:text-white transition-colors duration-200">Contact</a>
+          <a href="/privacy-policy" className="hover:text-white transition-colors duration-200">Privacy</a>
+          <a href="/terms" className="hover:text-white transition-colors duration-200">Terms</a>
           <a href="/editorial-policy" className="hover:text-white transition-colors duration-200">Editorial Policy</a>
         </nav>
       </div>

@@ -32,6 +32,14 @@ export function About() {
             technical team.
           </p>
         </div>
+        <div className="mt-8">
+          <a
+            href="#experience"
+            className="text-sm text-white/40 hover:text-white transition-colors duration-200 underline underline-offset-4"
+          >
+            View my full work experience →
+          </a>
+        </div>
       </div>
     </section>
   );

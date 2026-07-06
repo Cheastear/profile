@@ -1,4 +1,4 @@
-import { Mail } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { GithubIcon, LinkedinIcon, TelegramIcon } from "@/components/icons";
 import { socials } from "@/lib/data";
 
@@ -19,6 +19,20 @@ export function Contact() {
           >
             <Mail className="h-4 w-4" />
             {socials.email}
+          </a>
+          <a
+            href={`tel:${socials.phoneES}`}
+            className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
+          >
+            <Phone className="h-4 w-4" />
+            {socials.phoneESDisplay}
+          </a>
+          <a
+            href={`tel:${socials.phoneUA}`}
+            className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
+          >
+            <Phone className="h-4 w-4" />
+            {socials.phoneUADisplay}
           </a>
           <a
             href={socials.telegram}
