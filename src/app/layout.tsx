@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Syne, DM_Sans, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { JsonLd } from "@/components/json-ld";
 import "./globals.css";
 
 const syne = Syne({
@@ -22,24 +23,30 @@ const geistMono = Geist_Mono({
 });
 
 const description =
-  "Full-Stack Developer specializing in React, Next.js, Node.js & React Native. 3+ years of experience. Open to freelance and contract work.";
+  "Full-Stack Developer — React, Next.js, Node.js, NestJS & React Native. Designing web UIs, REST APIs & PostgreSQL systems. Open to freelance work.";
 
 const ogDescription =
   "Full-Stack Dev · React, Next.js, Node.js, React Native. Open to freelance work.";
 
 export const metadata: Metadata = {
   title: {
-    default: "Kirill Vitoshkin — Full-Stack Developer",
+    default: "Kirill Vitoshkin — Full-Stack React & Next.js Developer",
     template: "%s | Kirill Vitoshkin",
   },
   description,
+  alternates: {
+    canonical: "/",
+    languages: {
+      "en-US": "/",
+    },
+  },
   keywords: [
-    "Full-Stack Developer",
-    "React Developer",
-    "Next.js Developer",
-    "Node.js Developer",
+    "Full-Stack",
+    "React",
+    "Next.js",
+    "Node.js",
     "NestJS",
-    "React Native Developer",
+    "React Native",
     "TypeScript",
     "JavaScript",
     "Freelance Developer",
@@ -59,14 +66,16 @@ export const metadata: Metadata = {
   ),
   openGraph: {
     type: "website",
-    title: "Kirill Vitoshkin — Full-Stack Developer",
+    url: "/",
+    title: "Kirill Vitoshkin — Full-Stack React & Next.js Developer",
     description: ogDescription,
     siteName: "Kirill Vitoshkin",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kirill Vitoshkin — Full-Stack Developer",
+    site: "@Cheesteer",
+    title: "Kirill Vitoshkin — Full-Stack React & Next.js Developer",
     description,
     creator: "@Cheesteer",
   },
@@ -93,6 +102,7 @@ export default function RootLayout({
       className={`${syne.variable} ${dmSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col bg-[#111111]">
+        <JsonLd />
         {children}
         <Analytics />
         <SpeedInsights />

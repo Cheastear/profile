@@ -5,8 +5,14 @@ export function About() {
         <h2 className="font-heading font-bold text-3xl text-white mb-8">
           About
         </h2>
-        <div className="space-y-4 text-[15px] text-white/60 leading-relaxed max-w-3xl">
-          <p>
+        <div
+          itemScope
+          itemType="https://schema.org/Person"
+          className="space-y-4 text-[15px] text-white/60 leading-relaxed max-w-3xl"
+        >
+          <meta itemProp="name" content="Kirill Vitoshkin" />
+          <meta itemProp="jobTitle" content="Full-Stack Developer" />
+          <p itemProp="description">
             Full-Stack JavaScript Developer specializing in building scalable,
             high-performance web and mobile applications. I create end-to-end
             solutions using modern tech stacks: React, Next.js, Node.js, NestJS,

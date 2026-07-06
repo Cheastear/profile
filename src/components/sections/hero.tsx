@@ -21,15 +21,15 @@ export function Hero() {
           <div>
             <h1 className="font-heading font-extrabold leading-none tracking-tight">
               <span className="block text-[72px] sm:text-[100px] bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
-                Kirill
+                Kirill{" "}
               </span>
               <span className="block text-[72px] sm:text-[100px] bg-gradient-to-b from-white to-gray-400 bg-clip-text text-transparent">
-                Vitoshkin
+                Vitoshkin{" "}
+              </span>
+              <span className="block mt-5 text-xs font-heading font-semibold tracking-[0.25em] uppercase text-white/25">
+                Full-Stack React &amp; Next.js Developer
               </span>
             </h1>
-            <p className="mt-5 text-xs font-heading font-semibold tracking-[0.25em] uppercase text-white/25">
-              Full-Stack Developer
-            </p>
           </div>
 
           <p className="text-base text-white/40 max-w-md leading-relaxed">
@@ -49,7 +49,7 @@ export function Hero() {
             <a
               href={socials.github}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="me noopener noreferrer"
               className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
             >
               <GithubIcon className="h-4 w-4" />
@@ -58,7 +58,7 @@ export function Hero() {
             <a
               href={socials.linkedin}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="me author noopener noreferrer"
               className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
             >
               <LinkedinIcon className="h-4 w-4" />
