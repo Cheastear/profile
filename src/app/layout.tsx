@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Syne, DM_Sans, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { JsonLd } from "@/components/json-ld";
@@ -106,6 +107,19 @@ export default function RootLayout({
         {children}
         <Analytics />
         <SpeedInsights />
+        <Script
+          id="plerdy"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `var _protocol="https:"==document.location.protocol?"https://":"http://";
+_site_hash_code="063c5232267c5dc7267eb66845de0fac",_suid=78263,plerdyScript=document.createElement("script");
+plerdyScript.setAttribute("defer",""),plerdyScript.dataset.plerdymainscript="plerdymainscript",
+plerdyScript.src="https://a.plerdy.com/public/js/click/main.js?v="+Math.random();
+var plerdymainscript=document.querySelector("[data-plerdymainscript='plerdymainscript']");
+plerdymainscript&&plerdymainscript.parentNode.removeChild(plerdymainscript);
+try{document.head.appendChild(plerdyScript)}catch(t){console.log(t,"unable add script tag")}`,
+          }}
+        />
       </body>
     </html>
   );
