@@ -17,7 +17,7 @@ export default function AboutPage() {
     <div className="min-h-screen text-white">
       <Nav />
       <main>
-        <div className="mx-auto max-w-5xl px-6 pt-14 pb-2">
+        <div className="mx-auto max-w-5xl px-6 pt-14 pb-10">
           <h1 className="font-heading font-bold text-5xl text-white tracking-tight">
             About Kyrylo Vitoshkin
           </h1>

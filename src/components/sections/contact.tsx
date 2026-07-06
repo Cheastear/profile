@@ -12,55 +12,59 @@ export function Contact() {
         <p className="text-white/55 mb-10 max-w-3xs mx-auto text-sm leading-relaxed">
           Available for freelance, contract work, and full-time positions.
         </p>
-        <div className="flex flex-wrap gap-3 justify-center">
-          <a
-            href={`mailto:${socials.email}`}
-            className="inline-flex items-center gap-2.5 text-[#111] bg-white hover:bg-gray-100 text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
-          >
-            <Mail className="h-4 w-4" />
-            {socials.email}
-          </a>
-          <a
-            href={`tel:${socials.phoneES}`}
-            className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
-          >
-            <Phone className="h-4 w-4" />
-            {socials.phoneESDisplay}
-          </a>
-          <a
-            href={`tel:${socials.phoneUA}`}
-            className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
-          >
-            <Phone className="h-4 w-4" />
-            {socials.phoneUADisplay}
-          </a>
-          <a
-            href={socials.telegram}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
-          >
-            <TelegramIcon className="h-4 w-4" />
-            Telegram
-          </a>
-          <a
-            href={socials.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
-          >
-            <GithubIcon className="h-4 w-4" />
-            GitHub
-          </a>
-          <a
-            href={socials.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
-          >
-            <LinkedinIcon className="h-4 w-4" />
-            LinkedIn
-          </a>
+        <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-wrap gap-3 justify-center">
+            <a
+              href={`mailto:${socials.email}`}
+              className="inline-flex items-center gap-2.5 text-[#111] bg-white hover:bg-gray-100 text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
+            >
+              <Mail className="h-4 w-4" />
+              {socials.email}
+            </a>
+            <a
+              href={socials.telegram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
+            >
+              <TelegramIcon className="h-4 w-4" />
+              Telegram
+            </a>
+            <a
+              href={socials.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
+            >
+              <GithubIcon className="h-4 w-4" />
+              GitHub
+            </a>
+            <a
+              href={socials.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
+            >
+              <LinkedinIcon className="h-4 w-4" />
+              LinkedIn
+            </a>
+          </div>
+          <div className="flex flex-wrap gap-3 justify-center">
+            <a
+              href={`tel:${socials.phoneES}`}
+              className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
+            >
+              <Phone className="h-4 w-4" />
+              {socials.phoneESDisplay}
+            </a>
+            <a
+              href={`tel:${socials.phoneUA}`}
+              className="inline-flex items-center gap-2.5 bg-white/[0.06] border border-white/[0.10] hover:bg-white/[0.09] hover:border-white/20 text-white/55 hover:text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all duration-200 hover:-translate-y-0.5"
+            >
+              <Phone className="h-4 w-4" />
+              {socials.phoneUADisplay}
+            </a>
+          </div>
         </div>
       </div>
     </section>

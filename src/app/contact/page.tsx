@@ -15,6 +15,11 @@ export default function ContactPage() {
     <div className="min-h-screen text-white flex flex-col">
       <Nav />
       <main className="flex-1 flex flex-col">
+        <div className="mx-auto max-w-5xl w-full px-6 pt-14 pb-10">
+          <h1 className="font-heading font-bold text-5xl text-white tracking-tight">
+            Contact & Hire Kyrylo Vitoshkin
+          </h1>
+        </div>
         <Contact />
         <div className="flex-1 bg-[#151515]" />
       </main>

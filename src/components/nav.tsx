@@ -35,9 +35,14 @@ export function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/[0.06] backdrop-blur-md">
       <div className="mx-auto max-w-5xl px-6 py-4 flex items-center justify-between">
-        <span className="font-heading font-extrabold text-lg text-white tracking-wide">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-heading font-extrabold text-lg text-white tracking-wide"
+          aria-label="Home"
+        >
           KV
-        </span>
+        </a>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
           {navLinks.map(({ href, label }) => (
             <a
