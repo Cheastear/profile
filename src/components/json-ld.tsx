@@ -1,3 +1,5 @@
+import { faqs } from "@/lib/data";
+
 export function JsonLd() {
   const baseUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
@@ -31,6 +33,18 @@ export function JsonLd() {
         dateModified,
         author: { "@id": `${baseUrl}/#person` },
         about: { "@id": `${baseUrl}/#person` },
+      },
+      {
+        "@type": "FAQPage",
+        "@id": `${baseUrl}/#faqpage`,
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
       },
       {
         "@type": "Person",

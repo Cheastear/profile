@@ -140,6 +140,39 @@ export const experiences = [
   },
 ];
 
+export const faqs = [
+  {
+    question: "What services do you offer?",
+    answer:
+      "I offer full-stack web development, cross-platform mobile app development, backend API design, database architecture, and technical consulting — using React, Next.js, Node.js, NestJS, React Native, and PostgreSQL.",
+  },
+  {
+    question: "Are you available for freelance or contract work?",
+    answer:
+      "Yes — I'm currently available for freelance projects, short and long-term contracts, and full-time positions. I'm based in Valencia, Spain — available for on-site work in Valencia and mostly remote otherwise. Feel free to reach out via email or Telegram.",
+  },
+  {
+    question: "Do you work remotely?",
+    answer:
+      "Mostly yes. I'm based in Valencia, Spain — available for on-site work in Valencia, and remote for clients elsewhere. I'm comfortable with async communication and can adapt to different time zones.",
+  },
+  {
+    question: "How long does a typical project take?",
+    answer:
+      "Timelines depend on scope. A focused MVP typically takes 4–8 weeks; larger platforms with complex integrations may take 3–6 months. I provide a detailed estimate after reviewing your requirements.",
+  },
+  {
+    question: "What does your development process look like?",
+    answer:
+      "I start with a discovery phase to clarify requirements and architecture, then move into iterative development with regular demos. I deliver clean, maintainable code with documentation and handover support.",
+  },
+  {
+    question: "Can you work with an existing codebase?",
+    answer:
+      "Absolutely. I regularly join projects mid-flight — refactoring legacy code, adding features, fixing performance issues, or scaling infrastructure across React, Next.js, Node.js, and NestJS codebases.",
+  },
+];
+
 export const services = [
   {
     title: "Web Development",
