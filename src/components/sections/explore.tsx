@@ -1,8 +1,8 @@
 const links = [
   { href: "/about", label: "About & background", description: "Who I am and how I work" },
-  { href: "#experience", label: "Work experience", description: "Projects I've shipped" },
-  { href: "#services", label: "Services offered", description: "What I can build for you" },
+  { href: "/about#experience", label: "Work experience", description: "Projects I've shipped" },
   { href: "/contact", label: "Get in touch", description: "Start a conversation" },
+  { href: "/editorial-policy", label: "Editorial policy", description: "How this content is written" },
 ];
 
 export function Explore() {

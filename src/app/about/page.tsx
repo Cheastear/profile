@@ -6,7 +6,7 @@ import { Skills } from "@/components/sections/skills";
 import { Experience } from "@/components/sections/experience";
 
 export const metadata: Metadata = {
-  title: "About",
+  title: "About — Background & Experience",
   description:
     "Learn more about Kyrylo Vitoshkin — Full-Stack Developer specializing in React, Next.js, Node.js, NestJS & React Native. Based in Valencia, Spain.",
   alternates: { canonical: "/about" },

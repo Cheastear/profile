@@ -4,7 +4,7 @@ import { Footer } from "@/components/footer";
 import { Contact } from "@/components/sections/contact";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact & Hire Me",
   description:
     "Get in touch with Kyrylo Vitoshkin. Available for freelance, contract, and full-time work. Based in Valencia, Spain — remote-friendly.",
   alternates: { canonical: "/contact" },

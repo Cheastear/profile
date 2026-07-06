@@ -63,7 +63,7 @@ export function JsonLd() {
         },
         sameAs: [
           "https://github.com/Cheastear",
-          "https://linkedin.com/in/kirill-vitoshkin-a9420a288",
+          "https://www.linkedin.com/in/kyrylo-vitoshkin-a9420a288",
           "https://t.me/Cheesteer",
         ],
         knowsAbout: [
